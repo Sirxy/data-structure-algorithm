@@ -8,11 +8,12 @@ def select_sort(alist):
 
 		min_index = j
 
-		for i in range(j+1, n):
+		for i in range(j+1, n):  #
 			if alist[min_index] > alist[i]:
 				min_index = i
-		if j != min_index:
-			alist[j], alist[min_index] = alist[min_index], alist[j]
+
+		# if j != min_index:
+		alist[j], alist[min_index] = alist[min_index], alist[j]
 
 
 if __name__ == '__main__':
