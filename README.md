@@ -14,7 +14,7 @@
 
 ##### 算法：
 
-/data structure/sorting_algorithm——排序算法sorting algorithm
+/algorithm/sorting_algorithm——排序算法sorting algorithm
 
 。。。
 
