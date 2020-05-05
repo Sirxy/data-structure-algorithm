@@ -3,7 +3,7 @@
 def bubble_sort(alist):
 	""""""
 	n = len(alist)
-	for j in range(0, n-1):  # 班长从头走到尾, 班长重复多少次数,外层循环控制走多少次
+	for j in range(0, n-1):  # 班长从头走到尾, 班长重复多少次数,外层循环控制走(比较)多少次
 
 		count = 0  # 加入count进行优化，但最优时间复杂度没有变化
 

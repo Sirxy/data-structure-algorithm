@@ -4,7 +4,7 @@ def insert_sort(alist):
 	""""""
 	n = len(alist)
 	# 从右边的序列中取出多少个元素执行这样的过程
-	for j in range(1, n):
+	for j in range(1, n):  # # 从第二个位置，即下标为1的元素开始向前插入
 		# j = [1, 2, 3, n-1]
 		# i 代表内层循环起始值
 		i = j
